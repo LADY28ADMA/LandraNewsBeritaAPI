@@ -1,0 +1,88 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* !! custom class */
+.neumo {
+  /* border-radius: 50px; */
+  background: #e0e0e0;
+  box-shadow: 20px 20px 60px #bebebe,
+    -20px -20px 60px #ffffff;
+}
+
+.neumobg{
+  background: #e0e0e0;
+}
+
+.nav-link.active {
+  border-bottom: 2px solid #f14e4e;
+}
+
+@media (min-width: 1280px) {
+  .nav-link.active {
+    border-bottom: 4px solid #f14e4e;
+  }
+}
+
+/* Transition effect for tab content */
+.tab-content {
+  transition: transform 2.5s ease-in-out;
+}
+
+.checkbox-label::before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  border: 1px solid #4A5568;
+  border-radius: 2px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+/* Style for checked checkbox */
+.checkbox-input:checked+.checkbox-label::before {
+  background-color: #4A5568;
+}
+
+/* Style for disabled button */
+.disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+/* !! warna scroll */
+
+body {
+  --sb-track-color: #232E33;
+  --sb-thumb-color: #f37e7e;
+  --sb-size: 9px;
+}
+
+body::-webkit-scrollbar {
+  width: var(--sb-size)
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 3px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 3px;
+
+}
+
+@supports not selector(::-webkit-scrollbar) {
+  body {
+    scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+  }
+}
+
+/* 
+backup kode
+<!-- <body class="w-full min-h-dvh flex flex-col"> -->
+        <!-- @include('components.nav.navbar') -->
+*/

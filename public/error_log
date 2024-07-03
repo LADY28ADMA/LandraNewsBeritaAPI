@@ -1,0 +1,20 @@
+[02-Jul-2024 00:23:48 UTC] PHP Warning:  require(/home/amoratou/demo.amoratours.id/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/amoratou/demo.amoratours.id/public/index.php on line 34
+[02-Jul-2024 00:23:48 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/amoratou/demo.amoratours.id/public/../vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/amoratou/demo.amoratours.id/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/amoratou/demo.amoratours.id/public/index.php on line 34
+[02-Jul-2024 00:23:55 UTC] PHP Warning:  require(/home/amoratou/demo.amoratours.id/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/amoratou/demo.amoratours.id/public/index.php on line 34
+[02-Jul-2024 00:23:55 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/amoratou/demo.amoratours.id/public/../vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/amoratou/demo.amoratours.id/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/amoratou/demo.amoratours.id/public/index.php on line 34
+[02-Jul-2024 00:27:30 UTC] PHP Warning:  require(/home/amoratou/demo.amoratours.id/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/amoratou/demo.amoratours.id/public/index.php on line 34
+[02-Jul-2024 00:27:30 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/amoratou/demo.amoratours.id/public/../vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/amoratou/demo.amoratours.id/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/amoratou/demo.amoratours.id/public/index.php on line 34
+[02-Jul-2024 00:28:41 UTC] PHP Warning:  require(/home/amoratou/demo.amoratours.id/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/amoratou/demo.amoratours.id/public/index.php on line 34
+[02-Jul-2024 00:28:41 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/amoratou/demo.amoratours.id/public/../vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/amoratou/demo.amoratours.id/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/amoratou/demo.amoratours.id/public/index.php on line 34
